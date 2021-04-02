@@ -12,9 +12,9 @@ const Header = () => {
 
             <nav class="navbar navbar-expand-lg container navbar-light bg-primary">
                 <div class="container">
-                    <a class="navbar-brand" href="/home">
+                    <Link class="navbar-brand" to="/home">
                         <img src={logo} alt="" />
-                    </a>
+                    </Link>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
