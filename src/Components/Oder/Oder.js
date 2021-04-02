@@ -9,9 +9,10 @@ import OrderProdect from '../OrderProdect/OrderProdect';
 const Oder = () => {
     const [loginUser, setLoginUser] = useContext(userContext);
     const [order, setOrder] = useState([])
+    console.log(loginUser)
     useEffect(() => {
         fetch('https://apricot-cupcake-84662.herokuapp.com/ordes?email=' + loginUser.email,{
-            
+           
         })
             .then(res => res.json())
             .then(data => setOrder(data))

@@ -14,8 +14,6 @@ const Home = (props) => {
         <div className="container">
             <div className="card ms-5 mt-5 " style={{ "width": "20rem", "float": "left", "height": "400px" }}>
                 <img src={imageUrl} className="card-img-top mt-2 w-75 m-auto" alt="" />
-               
-               
 
                 <div className="card-body m-auto">
                     <h2 class="card-title">{name}</h2>
