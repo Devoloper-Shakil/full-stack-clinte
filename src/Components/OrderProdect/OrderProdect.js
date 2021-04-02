@@ -2,7 +2,7 @@ import React  from 'react';
 
 import './OrderProduct.css'
 const OrderProdect = (props) => {
-    const { name, price} = props.order;
+    const { name, price,newDate} = props.order;
    
     return (
         <div>
@@ -14,7 +14,7 @@ const OrderProdect = (props) => {
 
                         <td className="product-name">{name}</td>
                         <td className="price">{price?.Price}</td>
-                        <td>date</td>
+                        <td>{newDate}</td>
                     </tr>
                     <tr></tr>
 

@@ -17,12 +17,14 @@ const Checkout = (props) => {
     }, [name]);
 
     const hendeCheckout = () => {
+
+        const newOrder ={...check, newDate: new Date()}
        
         fetch('https://apricot-cupcake-84662.herokuapp.com/orders', {
             method: "POST",
 
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(check)
+            body: JSON.stringify(newOrder)
         })
             .then(result => {
                 alert('Oreder Submet')
