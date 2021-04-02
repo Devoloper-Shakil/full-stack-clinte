@@ -1,0 +1,12 @@
+.product-name {
+    width: 548px;
+    background: #e1dddd;
+}
+
+.price {
+    width: 252px;
+    background: #e1dddd;
+}
+.control{
+    cursor:pointer;
+}

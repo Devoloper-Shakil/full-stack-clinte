@@ -1,0 +1,77 @@
+.login{
+   
+    width: 500px;
+    margin: auto;
+    height: 282px;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 9px;
+    padding: 41px;
+    margin-top: 50px;
+}
+.login-mathot{
+    width: 277px;
+    height: 56px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+@media (max-width: 575.98px) { 
+    .login-mathot{
+        width: 277px;
+        height: 56px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+   }
+  
+  
+  @media (max-width: 767.98px) {
+    .login-mathot{
+        width: 296px;
+        height: 56px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    }
+  
+  
+  @media (max-width: 991.98px) { 
+    .login-mathot{
+        width: 384px;
+        height: 56px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .login {
+        width: 662px;
+        margin: auto;
+        height: 326px;
+        text-align: center;
+        border: 2px solid gray;
+        border-radius: 9px;
+        padding: 41px;
+        margin-top: 40px;
+    }
+    
+   }
+  
+  
+  @media (max-width: 1199.98px) { 
+    .login-mathot {
+        width: 336px;
+        height: 64px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+   
+  }
+  @media (max-width: 360px) { 
+    .login{
+        width: 90%;
+    }
+    .login-mathot {
+        width: 90%;
+        font-size: 20px;
+    }
+  }
