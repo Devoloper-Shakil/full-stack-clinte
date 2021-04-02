@@ -19,6 +19,12 @@ const Product = () => {
                 <input class="form-control me-2" placeholder="Search" type="search" aria-label="Search" name="" id="" />
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
+
+            {
+                products.length === 0 &&  <div class="spinner-border text-danger mt-5" role="status">
+                <span class="visually-hidden">Loading...</span>
+                </div>
+            }
             {
                 products.map(pd => <Home pd={pd}></Home>)
             }
